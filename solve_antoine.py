@@ -2,6 +2,10 @@ import numpy as np
 import csv 
 import matplotlib.pyplot as plt
 
+"""
+Este programa halla las constantes de Antoine A, B, C para el benceno
+utilizano mínimos cuadrados
+"""
 P, T = [], []
 
 with open("datos_antoine.csv", "r") as f:

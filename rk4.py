@@ -1,5 +1,5 @@
 import numpy as np
-
+#Metodo para resolver ecuaciones diferenciales
 def rungek4(fun, t, z0):
     nt = len(t)
     nz = len(z0)

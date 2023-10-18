@@ -3,7 +3,7 @@ import reactores
 import rk4
 
 import matplotlib.pyplot as plt
-
+# Realizando modificaciones desde un celular
 t = np.linspace(0, 80, 100)
 C0 = np.array([0, 0, 0, 0])
 
